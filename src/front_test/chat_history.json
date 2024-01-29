@@ -1,0 +1,38 @@
+[
+  {
+    "content": "what is a text about",
+    "additional_kwargs": {},
+    "type": "human",
+    "example": false
+  },
+  {
+    "content": "The text is about the new iPhone 15 Pro, which is described as a titanium gaming powerhouse movie camera phone. It highlights the use of titanium, an aerospace-grade material, in the design, making it lightweight and strong. The text also mentions the phone's USB-C connector with fast transfer speeds, a customizable Action button, and the upgraded performance of the A17 Pro chip for mobile gaming. It emphasizes the camera system, which includes multiple lenses and the ability to capture high-resolution photos and shoot videos in ProRes 4K at 60 frames per second. Overall, the text showcases the iPhone 15 Pro as a powerful device for gaming, photography, and filmmaking.",
+    "additional_kwargs": {},
+    "type": "ai",
+    "example": false
+  },
+  {
+    "content": "ok what is the camera size",
+    "additional_kwargs": {},
+    "type": "human",
+    "example": false
+  },
+  {
+    "content": "The size of the camera on the iPhone 15 Pro is not mentioned in the provided context.",
+    "additional_kwargs": {},
+    "type": "ai",
+    "example": false
+  },
+  {
+    "content": "ok who is the President zelensky",
+    "additional_kwargs": {},
+    "type": "human",
+    "example": false
+  },
+  {
+    "content": "I don't know.",
+    "additional_kwargs": {},
+    "type": "ai",
+    "example": false
+  }
+]

@@ -1,0 +1,27 @@
+version: '3.10'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+#    networks:
+#      - app_network
+
+  redis:
+    image: redis:latest
+    environment:
+      REDIS_HOST: ${REDIS_HOST}
+      REDIS_PORT: ${REDIS_PORT}
+    ports:
+      - "6379:6379"
+#    networks:
+#      - app_network
+
+#networks:
+#  app_network:
+#    driver: bridge
