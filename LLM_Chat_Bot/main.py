@@ -32,6 +32,15 @@ app.add_middleware(
 
 @app.middleware('http')
 async def custom_middleware(request: Request, call_next):
+    """
+    The custom_middleware function is a custom middleware function.
+    It adds the time it took to process the request to the response headers.
+    
+    :param request: Request: Get the request object
+    :param call_next: Call the next middleware in the chain
+    :return: A response object with a new header
+    :doc-author: Trelent
+    """
     start_time = time.time()
     response = await call_next(request)
     during = time.time() - start_time
