@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "ds-team-project"
+version = "0.1.0"
+description = ""
+authors = ["PIRomanCod <111997187+PIRomanCod@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ds_team_project"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+alembic = "1.10.4"
+fastapi = "^0.109.0"
+psycopg2-binary = "2.9.6"
+python-jose = {version = "3.3.0", extras = ["cryptography"]}
+passlib = {version = "1.7.2", extras = ["bcrypt"]}
+python-multipart = "^0.0.6"
+libgravatar = "1.0.4"
+fastapi-mail = "^1.4.1"
+redis = "^5.0.1"
+fastapi-limiter = "0.1.6"
+cloudinary = "1.32.0"
+sqlalchemy = "^2.0.25"
+pydantic = {version = "2.6.0", extras = ["dotenv"]}
+starlette = "0.35.0"
+uvicorn = "^0.27.0.post1"
+streamlit = "^1.30.0"
+pypdf2 = "^3.0.1"
+langchain = "^0.1.4"
+faiss-cpu = "1.7.4"
+openai = "1.10.0"
+tiktoken = "^0.5.2"
+requests = "^2.31.0"
+unstructured = "^0.12.3"
+ebooklib = "^0.18"
+python-pptx = "^0.6.23"
+python-docx = "^1.1.0"
+speechrecognition = "^3.10.1"
+pyaudio = "^0.2.14"
+youtube-transcript-api = "^0.6.2"
+langchain-openai = "0.0.5"
+langchain-community = "^0.0.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
