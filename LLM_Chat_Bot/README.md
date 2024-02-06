@@ -15,7 +15,7 @@ In addition, the project provides storage of the history of requests to Large La
 
 
 # How to start for developers:
-- update project from Git
+- update project from Git repository https://github.com/VadimTrubay/fastapi_project_LLM_ChatBot.git
 - create environment 
 ```bash
 poetry export --without-hashes --format requirements.txt --output requirements.txt
