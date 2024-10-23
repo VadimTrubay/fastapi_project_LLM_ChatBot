@@ -22,7 +22,7 @@ async def create_message(chat_id: int, body: ChatHistoryBase, db: Session, user:
 
     response_dict = ast.literal_eval(answer)
     user_question = 'Q: ' + response_dict['user_messages'][0]
-    bot_response = 'A: '+ response_dict['bot_messages'][0]
+    bot_response = 'A: ' + response_dict['bot_messages'][0]
 
     question = ChatHistory(message=user_question, user_id=user.id, chat_id=chat_id)
     response = ChatHistory(message=bot_response, user_id=user.id, chat_id=chat_id)
